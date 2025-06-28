@@ -10,6 +10,7 @@ To learn how to use this template with the best AI tools & workflows, check out 
 - Backend: [PostgreSQL](https://www.postgresql.org/about/), [Supabase](https://supabase.com/), [Drizzle](https://orm.drizzle.team/docs/get-started-postgresql), [Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
 - Auth: [Supabase](https://supabase.com/)
 - Payments: [Stripe](https://stripe.com/)
+- Analytics: [PostHog](https://posthog.com/)
 
 ## Prerequisites
 
@@ -21,6 +22,7 @@ They all have free plans that you can use to get started.
 - Create a [Supabase](https://supabase.com/) account
 - Create a [Stripe](https://stripe.com/) account
 - Create a [Vercel](https://vercel.com/) account
+- Create a [PostHog](https://posthog.com/) account
 
 You will likely not need paid plans unless you are building a business.
 
@@ -40,6 +42,11 @@ STRIPE_SECRET_KEY=
 STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_STRIPE_PAYMENT_LINK_YEARLY=
 NEXT_PUBLIC_STRIPE_PAYMENT_LINK_MONTHLY=
+
+# Posthog
+NEXT_PUBLIC_POSTHOG_KEY=
+NEXT_PUBLIC_POSTHOG_HOST=
+
 ```
 
 ## Setup
